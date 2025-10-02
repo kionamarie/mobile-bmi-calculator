@@ -137,7 +137,6 @@ export default function App() {
           <Text style={styles.text} key={index}>Date: {entry.date}, BMI: {entry.bmi}</Text>
         ))
       )}
-      <StatusBar style="auto" />
     </View>
   );
 } 
