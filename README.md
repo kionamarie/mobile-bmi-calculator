@@ -10,14 +10,14 @@
 - Feedback: Receive feedback based on your BMI (Underweight, Normal weight, Overweight, Obesity).
 - History Tracking: Automatically saves each BMI calculation with the current date.
 - View History: See how your BMI has changed over time.
-- Reset: Clear your current inputs and results.
+- Clear: Clear your current inputs and results.
 
 ## Usage
 
 - Enter your weight and height.
 - Tap Calculate BMI to see your result and feedback.
 - Tap Show History to view your previous BMI records.
-- Tap Reset to clear the form.
+- Tap "Clear" to clear the form.
 
 ## Tech Stack
 
