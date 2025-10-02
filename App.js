@@ -82,7 +82,7 @@ export default function App() {
     return 'Obesity';
   }
 
-  const reset = () => {
+  const Clear = () => {
     setBMI('');
     setDate('');
     setWeight('');
@@ -121,10 +121,10 @@ export default function App() {
         </View>
       ) : null}
       <TouchableOpacity
-        style={styles.resetButton}      
-        onPress={() => reset()}
+        style={styles.ClearButton}      
+        onPress={() => Clear()}
       >
-        <Text style={styles.buttonText}>Reset</Text>
+        <Text style={styles.buttonText}>Clear</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.showHistoryButton}
@@ -182,7 +182,7 @@ const styles = StyleSheet.create({
     padding: 7,
     borderRadius: 5,
   },
-  resetButton: { 
+  ClearButton: { 
     marginTop: 20,
     fontSize: 20,
     fontWeight: 'bold',
